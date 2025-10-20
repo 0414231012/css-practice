@@ -9,5 +9,23 @@ h1 {
 }
 /* Start here by styling the main div section */
 .main {
-    
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    background-color: beige; 
+    border: 9px dotted #FF990D;    
+    padding: 100px;
+    width: fit-content;
+}
+
+.square::after {
+    content: "??";
+}
+
+.square:active::after{
+    content: "☠️";
+}
+
+#s3:active::after{
+    content: "👻";
 }
